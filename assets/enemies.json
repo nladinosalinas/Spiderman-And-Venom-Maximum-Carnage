@@ -1,0 +1,2834 @@
+{
+    "frames":  {
+                   "trench_thug_idle_01":  {
+                                               "frame":  {
+                                                             "x":  506,
+                                                             "y":  390,
+                                                             "w":  54,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  54,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  54,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "trench_thug_idle_02":  {
+                                               "frame":  {
+                                                             "x":  58,
+                                                             "y":  287,
+                                                             "w":  46,
+                                                             "h":  83
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  46,
+                                                                        "h":  83
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  46,
+                                                                  "h":  83
+                                                              }
+                                           },
+                   "trench_thug_walk_01":  {
+                                               "frame":  {
+                                                             "x":  0,
+                                                             "y":  371,
+                                                             "w":  48,
+                                                             "h":  79
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  48,
+                                                                        "h":  79
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  48,
+                                                                  "h":  79
+                                                              }
+                                           },
+                   "trench_thug_walk_02":  {
+                                               "frame":  {
+                                                             "x":  522,
+                                                             "y":  530,
+                                                             "w":  45,
+                                                             "h":  75
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  45,
+                                                                        "h":  75
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  45,
+                                                                  "h":  75
+                                                              }
+                                           },
+                   "trench_thug_walk_03":  {
+                                               "frame":  {
+                                                             "x":  573,
+                                                             "y":  300,
+                                                             "w":  46,
+                                                             "h":  74
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  46,
+                                                                        "h":  74
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  46,
+                                                                  "h":  74
+                                                              }
+                                           },
+                   "trench_thug_walk_04":  {
+                                               "frame":  {
+                                                             "x":  48,
+                                                             "y":  451,
+                                                             "w":  46,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  46,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  46,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "trench_thug_punch_01":  {
+                                                "frame":  {
+                                                              "x":  449,
+                                                              "y":  316,
+                                                              "w":  50,
+                                                              "h":  78
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  50,
+                                                                         "h":  78
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  50,
+                                                                   "h":  78
+                                                               }
+                                            },
+                   "trench_thug_punch_02":  {
+                                                "frame":  {
+                                                              "x":  177,
+                                                              "y":  530,
+                                                              "w":  71,
+                                                              "h":  76
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  71,
+                                                                         "h":  76
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  71,
+                                                                   "h":  76
+                                                               }
+                                            },
+                   "trench_thug_shoot_01":  {
+                                                "frame":  {
+                                                              "x":  506,
+                                                              "y":  78,
+                                                              "w":  61,
+                                                              "h":  77
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  61,
+                                                                         "h":  77
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  61,
+                                                                   "h":  77
+                                                               }
+                                            },
+                   "trench_thug_shoot_02":  {
+                                                "frame":  {
+                                                              "x":  429,
+                                                              "y":  608,
+                                                              "w":  85,
+                                                              "h":  70
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  85,
+                                                                         "h":  70
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  85,
+                                                                   "h":  70
+                                                               }
+                                            },
+                   "trench_thug_hurt_01":  {
+                                               "frame":  {
+                                                             "x":  254,
+                                                             "y":  287,
+                                                             "w":  42,
+                                                             "h":  81
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  42,
+                                                                        "h":  81
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  42,
+                                                                  "h":  81
+                                                              }
+                                           },
+                   "trench_thug_knockdown_01":  {
+                                                    "frame":  {
+                                                                  "x":  382,
+                                                                  "y":  530,
+                                                                  "w":  50,
+                                                                  "h":  76
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  50,
+                                                                             "h":  76
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  50,
+                                                                       "h":  76
+                                                                   }
+                                                },
+                   "trench_thug_knockdown_02":  {
+                                                    "frame":  {
+                                                                  "x":  432,
+                                                                  "y":  810,
+                                                                  "w":  91,
+                                                                  "h":  48
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  91,
+                                                                             "h":  48
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  91,
+                                                                       "h":  48
+                                                                   }
+                                                },
+                   "trench_thug_knockdown_03":  {
+                                                    "frame":  {
+                                                                  "x":  309,
+                                                                  "y":  810,
+                                                                  "w":  54,
+                                                                  "h":  51
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  54,
+                                                                             "h":  51
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  54,
+                                                                       "h":  51
+                                                                   }
+                                                },
+                   "trench_thug_dead_01":  {
+                                               "frame":  {
+                                                             "x":  412,
+                                                             "y":  865,
+                                                             "w":  89,
+                                                             "h":  34
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  89,
+                                                                        "h":  34
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  89,
+                                                                  "h":  34
+                                                              }
+                                           },
+                   "trench_thug_getup_01":  {
+                                                "frame":  {
+                                                              "x":  798,
+                                                              "y":  44,
+                                                              "w":  90,
+                                                              "h":  42
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  90,
+                                                                         "h":  42
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  90,
+                                                                   "h":  42
+                                                               }
+                                            },
+                   "trench_thug_getup_02":  {
+                                                "frame":  {
+                                                              "x":  798,
+                                                              "y":  0,
+                                                              "w":  90,
+                                                              "h":  43
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  90,
+                                                                         "h":  43
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  90,
+                                                                   "h":  43
+                                                               }
+                                            },
+                   "trench_thug_getup_03":  {
+                                                "frame":  {
+                                                              "x":  254,
+                                                              "y":  810,
+                                                              "w":  54,
+                                                              "h":  51
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  54,
+                                                                         "h":  51
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  54,
+                                                                   "h":  51
+                                                               }
+                                            },
+                   "shades_thug_idle_01":  {
+                                               "frame":  {
+                                                             "x":  142,
+                                                             "y":  530,
+                                                             "w":  34,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  34,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  34,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "shades_thug_idle_02":  {
+                                               "frame":  {
+                                                             "x":  142,
+                                                             "y":  451,
+                                                             "w":  34,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  34,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  34,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "shades_thug_walk_01":  {
+                                               "frame":  {
+                                                             "x":  335,
+                                                             "y":  245,
+                                                             "w":  40,
+                                                             "h":  75
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  40,
+                                                                        "h":  75
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  40,
+                                                                  "h":  75
+                                                              }
+                                           },
+                   "shades_thug_walk_02":  {
+                                               "frame":  {
+                                                             "x":  335,
+                                                             "y":  82,
+                                                             "w":  39,
+                                                             "h":  81
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  39,
+                                                                        "h":  81
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  39,
+                                                                  "h":  81
+                                                              }
+                                           },
+                   "shades_thug_walk_03":  {
+                                               "frame":  {
+                                                             "x":  449,
+                                                             "y":  79,
+                                                             "w":  55,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  55,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  55,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "shades_thug_walk_04":  {
+                                               "frame":  {
+                                                             "x":  95,
+                                                             "y":  451,
+                                                             "w":  46,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  46,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  46,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "shades_thug_punch_01":  {
+                                                "frame":  {
+                                                              "x":  297,
+                                                              "y":  608,
+                                                              "w":  69,
+                                                              "h":  71
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  69,
+                                                                         "h":  71
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  69,
+                                                                   "h":  71
+                                                               }
+                                            },
+                   "shades_thug_kick_01":  {
+                                               "frame":  {
+                                                             "x":  385,
+                                                             "y":  750,
+                                                             "w":  44,
+                                                             "h":  58
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  44,
+                                                                        "h":  58
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  44,
+                                                                  "h":  58
+                                                              }
+                                           },
+                   "shades_thug_kick_02":  {
+                                               "frame":  {
+                                                             "x":  159,
+                                                             "y":  681,
+                                                             "w":  42,
+                                                             "h":  67
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  42,
+                                                                        "h":  67
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  42,
+                                                                  "h":  67
+                                                              }
+                                           },
+                   "shades_thug_kick_03":  {
+                                               "frame":  {
+                                                             "x":  573,
+                                                             "y":  0,
+                                                             "w":  84,
+                                                             "h":  74
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  84,
+                                                                        "h":  74
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  84,
+                                                                  "h":  74
+                                                              }
+                                           },
+                   "shades_thug_hurt_01":  {
+                                               "frame":  {
+                                                             "x":  335,
+                                                             "y":  0,
+                                                             "w":  41,
+                                                             "h":  81
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  41,
+                                                                        "h":  81
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  41,
+                                                                  "h":  81
+                                                              }
+                                           },
+                   "shades_thug_hurt_02":  {
+                                               "frame":  {
+                                                             "x":  100,
+                                                             "y":  530,
+                                                             "w":  41,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  41,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  41,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "shades_thug_knockdown_01":  {
+                                                    "frame":  {
+                                                                  "x":  97,
+                                                                  "y":  865,
+                                                                  "w":  77,
+                                                                  "h":  39
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  77,
+                                                                             "h":  39
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  77,
+                                                                       "h":  39
+                                                                   }
+                                                },
+                   "shades_thug_knockdown_02":  {
+                                                    "frame":  {
+                                                                  "x":  658,
+                                                                  "y":  0,
+                                                                  "w":  64,
+                                                                  "h":  69
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  64,
+                                                                             "h":  69
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  64,
+                                                                       "h":  69
+                                                                   }
+                                                },
+                   "shades_thug_dead_01":  {
+                                               "frame":  {
+                                                             "x":  678,
+                                                             "y":  865,
+                                                             "w":  88,
+                                                             "h":  27
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  88,
+                                                                        "h":  27
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  88,
+                                                                  "h":  27
+                                                              }
+                                           },
+                   "shades_thug_getup_01":  {
+                                                "frame":  {
+                                                              "x":  144,
+                                                              "y":  810,
+                                                              "w":  32,
+                                                              "h":  53
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  32,
+                                                                         "h":  53
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  32,
+                                                                   "h":  53
+                                                               }
+                                            },
+                   "shades_thug_getup_02":  {
+                                                "frame":  {
+                                                              "x":  480,
+                                                              "y":  750,
+                                                              "w":  49,
+                                                              "h":  55
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  49,
+                                                                         "h":  55
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  49,
+                                                                   "h":  55
+                                                               }
+                                            },
+                   "shades_thug_getup_03":  {
+                                                "frame":  {
+                                                              "x":  430,
+                                                              "y":  750,
+                                                              "w":  49,
+                                                              "h":  56
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  49,
+                                                                         "h":  56
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  49,
+                                                                   "h":  56
+                                                               }
+                                            },
+                   "female_thug_idle_01":  {
+                                               "frame":  {
+                                                             "x":  573,
+                                                             "y":  75,
+                                                             "w":  71,
+                                                             "h":  74
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  71,
+                                                                        "h":  74
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  71,
+                                                                  "h":  74
+                                                              }
+                                           },
+                   "female_thug_idle_02":  {
+                                               "frame":  {
+                                                             "x":  573,
+                                                             "y":  150,
+                                                             "w":  71,
+                                                             "h":  74
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  71,
+                                                                        "h":  74
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  71,
+                                                                  "h":  74
+                                                              }
+                                           },
+                   "female_thug_walk_01":  {
+                                               "frame":  {
+                                                             "x":  49,
+                                                             "y":  371,
+                                                             "w":  45,
+                                                             "h":  79
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  45,
+                                                                        "h":  79
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  45,
+                                                                  "h":  79
+                                                              }
+                                           },
+                   "female_thug_walk_02":  {
+                                               "frame":  {
+                                                             "x":  95,
+                                                             "y":  371,
+                                                             "w":  43,
+                                                             "h":  79
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  43,
+                                                                        "h":  79
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  43,
+                                                                  "h":  79
+                                                              }
+                                           },
+                   "female_thug_walk_03":  {
+                                               "frame":  {
+                                                             "x":  53,
+                                                             "y":  530,
+                                                             "w":  46,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  46,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  46,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "female_thug_walk_04":  {
+                                               "frame":  {
+                                                             "x":  449,
+                                                             "y":  237,
+                                                             "w":  51,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  51,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  51,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "female_thug_punch_01":  {
+                                                "frame":  {
+                                                              "x":  182,
+                                                              "y":  287,
+                                                              "w":  71,
+                                                              "h":  81
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  71,
+                                                                         "h":  81
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  71,
+                                                                   "h":  81
+                                                               }
+                                            },
+                   "female_thug_punch_02":  {
+                                                "frame":  {
+                                                              "x":  362,
+                                                              "y":  451,
+                                                              "w":  72,
+                                                              "h":  77
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  72,
+                                                                         "h":  77
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  72,
+                                                                   "h":  77
+                                                               }
+                                            },
+                   "female_thug_kick_01":  {
+                                               "frame":  {
+                                                             "x":  377,
+                                                             "y":  0,
+                                                             "w":  71,
+                                                             "h":  80
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  71,
+                                                                        "h":  80
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  71,
+                                                                  "h":  80
+                                                              }
+                                           },
+                   "female_thug_kick_02":  {
+                                               "frame":  {
+                                                             "x":  109,
+                                                             "y":  198,
+                                                             "w":  83,
+                                                             "h":  88
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  83,
+                                                                        "h":  88
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  83,
+                                                                  "h":  88
+                                                              }
+                                           },
+                   "female_thug_high_kick_01":  {
+                                                    "frame":  {
+                                                                  "x":  0,
+                                                                  "y":  287,
+                                                                  "w":  57,
+                                                                  "h":  83
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  57,
+                                                                             "h":  83
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  57,
+                                                                       "h":  83
+                                                                   }
+                                                },
+                   "female_thug_high_kick_02":  {
+                                                    "frame":  {
+                                                                  "x":  157,
+                                                                  "y":  0,
+                                                                  "w":  72,
+                                                                  "h":  92
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  72,
+                                                                             "h":  92
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  72,
+                                                                       "h":  92
+                                                                   }
+                                                },
+                   "female_thug_whip_01":  {
+                                               "frame":  {
+                                                             "x":  52,
+                                                             "y":  0,
+                                                             "w":  57,
+                                                             "h":  97
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  57,
+                                                                        "h":  97
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  57,
+                                                                  "h":  97
+                                                              }
+                                           },
+                   "female_thug_whip_02":  {
+                                               "frame":  {
+                                                             "x":  0,
+                                                             "y":  198,
+                                                             "w":  108,
+                                                             "h":  88
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  108,
+                                                                        "h":  88
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  108,
+                                                                  "h":  88
+                                                              }
+                                           },
+                   "female_thug_whip_03":  {
+                                               "frame":  {
+                                                             "x":  620,
+                                                             "y":  681,
+                                                             "w":  89,
+                                                             "h":  60
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  89,
+                                                                        "h":  60
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  89,
+                                                                  "h":  60
+                                                              }
+                                           },
+                   "female_thug_whip_04":  {
+                                               "frame":  {
+                                                             "x":  367,
+                                                             "y":  608,
+                                                             "w":  61,
+                                                             "h":  71
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  61,
+                                                                        "h":  71
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  61,
+                                                                  "h":  71
+                                                              }
+                                           },
+                   "female_thug_dodge_01":  {
+                                                "frame":  {
+                                                              "x":  376,
+                                                              "y":  681,
+                                                              "w":  57,
+                                                              "h":  65
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  57,
+                                                                         "h":  65
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  57,
+                                                                   "h":  65
+                                                               }
+                                            },
+                   "female_thug_dodge_02":  {
+                                                "frame":  {
+                                                              "x":  503,
+                                                              "y":  681,
+                                                              "w":  43,
+                                                              "h":  64
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  43,
+                                                                         "h":  64
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  43,
+                                                                   "h":  64
+                                                               }
+                                            },
+                   "female_thug_hurt_01":  {
+                                               "frame":  {
+                                                             "x":  435,
+                                                             "y":  451,
+                                                             "w":  66,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  66,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  66,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "female_thug_hurt_02":  {
+                                               "frame":  {
+                                                             "x":  573,
+                                                             "y":  523,
+                                                             "w":  65,
+                                                             "h":  72
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  65,
+                                                                        "h":  72
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  65,
+                                                                  "h":  72
+                                                              }
+                                           },
+                   "female_thug_hurt_03":  {
+                                               "frame":  {
+                                                             "x":  506,
+                                                             "y":  0,
+                                                             "w":  66,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  66,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  66,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "female_thug_knockdown_01":  {
+                                                    "frame":  {
+                                                                  "x":  177,
+                                                                  "y":  810,
+                                                                  "w":  76,
+                                                                  "h":  51
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  76,
+                                                                             "h":  51
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  76,
+                                                                       "h":  51
+                                                                   }
+                                                },
+                   "female_thug_knockdown_02":  {
+                                                    "frame":  {
+                                                                  "x":  658,
+                                                                  "y":  70,
+                                                                  "w":  51,
+                                                                  "h":  69
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  51,
+                                                                             "h":  69
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  51,
+                                                                       "h":  69
+                                                                   }
+                                                },
+                   "female_thug_knockdown_03":  {
+                                                    "frame":  {
+                                                                  "x":  0,
+                                                                  "y":  608,
+                                                                  "w":  65,
+                                                                  "h":  72
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  65,
+                                                                             "h":  72
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  65,
+                                                                       "h":  72
+                                                                   }
+                                                },
+                   "female_thug_dead_01":  {
+                                               "frame":  {
+                                                             "x":  767,
+                                                             "y":  865,
+                                                             "w":  87,
+                                                             "h":  27
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  87,
+                                                                        "h":  27
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  87,
+                                                                  "h":  27
+                                                              }
+                                           },
+                   "female_thug_getup_01":  {
+                                                "frame":  {
+                                                              "x":  164,
+                                                              "y":  750,
+                                                              "w":  74,
+                                                              "h":  58
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  74,
+                                                                         "h":  58
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  74,
+                                                                   "h":  58
+                                                               }
+                                            },
+                   "female_thug_getup_02":  {
+                                                "frame":  {
+                                                              "x":  723,
+                                                              "y":  0,
+                                                              "w":  74,
+                                                              "h":  60
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  74,
+                                                                         "h":  60
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  74,
+                                                                   "h":  60
+                                                               }
+                                            },
+                   "female_thug_getup_03":  {
+                                                "frame":  {
+                                                              "x":  723,
+                                                              "y":  61,
+                                                              "w":  74,
+                                                              "h":  60
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  74,
+                                                                         "h":  60
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  74,
+                                                                   "h":  60
+                                                               }
+                                            },
+                   "fat_thug_idle_01":  {
+                                            "frame":  {
+                                                          "x":  377,
+                                                          "y":  162,
+                                                          "w":  54,
+                                                          "h":  79
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  54,
+                                                                     "h":  79
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  54,
+                                                               "h":  79
+                                                           }
+                                        },
+                   "fat_thug_idle_02":  {
+                                            "frame":  {
+                                                          "x":  377,
+                                                          "y":  242,
+                                                          "w":  54,
+                                                          "h":  79
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  54,
+                                                                     "h":  79
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  54,
+                                                               "h":  79
+                                                           }
+                                        },
+                   "fat_thug_walk_01":  {
+                                            "frame":  {
+                                                          "x":  0,
+                                                          "y":  0,
+                                                          "w":  51,
+                                                          "h":  101
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  51,
+                                                                     "h":  101
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  51,
+                                                               "h":  101
+                                                           }
+                                        },
+                   "fat_thug_walk_02":  {
+                                            "frame":  {
+                                                          "x":  110,
+                                                          "y":  0,
+                                                          "w":  46,
+                                                          "h":  97
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  46,
+                                                                     "h":  97
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  46,
+                                                               "h":  97
+                                                           }
+                                        },
+                   "fat_thug_walk_03":  {
+                                            "frame":  {
+                                                          "x":  230,
+                                                          "y":  0,
+                                                          "w":  67,
+                                                          "h":  87
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  67,
+                                                                     "h":  87
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  67,
+                                                               "h":  87
+                                                           }
+                                        },
+                   "fat_thug_walk_04":  {
+                                            "frame":  {
+                                                          "x":  46,
+                                                          "y":  102,
+                                                          "w":  48,
+                                                          "h":  94
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  48,
+                                                                     "h":  94
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  48,
+                                                               "h":  94
+                                                           }
+                                        },
+                   "fat_thug_attack_01":  {
+                                              "frame":  {
+                                                            "x":  127,
+                                                            "y":  608,
+                                                            "w":  89,
+                                                            "h":  71
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  89,
+                                                                       "h":  71
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  89,
+                                                                 "h":  71
+                                                             }
+                                          },
+                   "fat_thug_attack_02":  {
+                                              "frame":  {
+                                                            "x":  711,
+                                                            "y":  750,
+                                                            "w":  80,
+                                                            "h":  54
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  80,
+                                                                       "h":  54
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  80,
+                                                                 "h":  54
+                                                             }
+                                          },
+                   "fat_thug_attack_03":  {
+                                              "frame":  {
+                                                            "x":  78,
+                                                            "y":  810,
+                                                            "w":  65,
+                                                            "h":  54
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  65,
+                                                                       "h":  54
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  65,
+                                                                 "h":  54
+                                                             }
+                                          },
+                   "fat_thug_charge_01":  {
+                                              "frame":  {
+                                                            "x":  723,
+                                                            "y":  122,
+                                                            "w":  72,
+                                                            "h":  43
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  72,
+                                                                       "h":  43
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  72,
+                                                                 "h":  43
+                                                             }
+                                          },
+                   "fat_thug_charge_02":  {
+                                              "frame":  {
+                                                            "x":  547,
+                                                            "y":  681,
+                                                            "w":  72,
+                                                            "h":  62
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  72,
+                                                                       "h":  62
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  72,
+                                                                 "h":  62
+                                                             }
+                                          },
+                   "fat_thug_charge_03":  {
+                                              "frame":  {
+                                                            "x":  217,
+                                                            "y":  608,
+                                                            "w":  79,
+                                                            "h":  71
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  79,
+                                                                       "h":  71
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  79,
+                                                                 "h":  71
+                                                             }
+                                          },
+                   "fat_thug_hurt_01":  {
+                                            "frame":  {
+                                                          "x":  157,
+                                                          "y":  93,
+                                                          "w":  57,
+                                                          "h":  90
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  57,
+                                                                     "h":  90
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  57,
+                                                               "h":  90
+                                                           }
+                                        },
+                   "fat_thug_knockdown_01":  {
+                                                 "frame":  {
+                                                               "x":  0,
+                                                               "y":  810,
+                                                               "w":  77,
+                                                               "h":  54
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  77,
+                                                                          "h":  54
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  77,
+                                                                    "h":  54
+                                                                }
+                                             },
+                   "fat_thug_knockdown_02":  {
+                                                 "frame":  {
+                                                               "x":  249,
+                                                               "y":  530,
+                                                               "w":  71,
+                                                               "h":  76
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  71,
+                                                                          "h":  76
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  71,
+                                                                    "h":  76
+                                                                }
+                                             },
+                   "fat_thug_knockdown_03":  {
+                                                 "frame":  {
+                                                               "x":  377,
+                                                               "y":  81,
+                                                               "w":  48,
+                                                               "h":  80
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  48,
+                                                                          "h":  80
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  48,
+                                                                    "h":  80
+                                                                }
+                                             },
+                   "fat_thug_dead_01":  {
+                                            "frame":  {
+                                                          "x":  0,
+                                                          "y":  865,
+                                                          "w":  96,
+                                                          "h":  39
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  96,
+                                                                     "h":  39
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  96,
+                                                               "h":  39
+                                                           }
+                                        },
+                   "fat_thug_getup_01":  {
+                                             "frame":  {
+                                                           "x":  239,
+                                                           "y":  750,
+                                                           "w":  72,
+                                                           "h":  58
+                                                       },
+                                             "rotated":  false,
+                                             "trimmed":  false,
+                                             "spriteSourceSize":  {
+                                                                      "x":  0,
+                                                                      "y":  0,
+                                                                      "w":  72,
+                                                                      "h":  58
+                                                                  },
+                                             "sourceSize":  {
+                                                                "w":  72,
+                                                                "h":  58
+                                                            }
+                                         },
+                   "fat_thug_getup_02":  {
+                                             "frame":  {
+                                                           "x":  312,
+                                                           "y":  750,
+                                                           "w":  72,
+                                                           "h":  58
+                                                       },
+                                             "rotated":  false,
+                                             "trimmed":  false,
+                                             "spriteSourceSize":  {
+                                                                      "x":  0,
+                                                                      "y":  0,
+                                                                      "w":  72,
+                                                                      "h":  58
+                                                                  },
+                                             "sourceSize":  {
+                                                                "w":  72,
+                                                                "h":  58
+                                                            }
+                                         },
+                   "drone_chun_idle_01":  {
+                                              "frame":  {
+                                                            "x":  245,
+                                                            "y":  451,
+                                                            "w":  28,
+                                                            "h":  78
+                                                        },
+                                              "rotated":  false,
+                                              "trimmed":  false,
+                                              "spriteSourceSize":  {
+                                                                       "x":  0,
+                                                                       "y":  0,
+                                                                       "w":  28,
+                                                                       "h":  78
+                                                                   },
+                                              "sourceSize":  {
+                                                                 "w":  28,
+                                                                 "h":  78
+                                                             }
+                                          },
+                   "drone_chun_shoot_01":  {
+                                               "frame":  {
+                                                             "x":  0,
+                                                             "y":  451,
+                                                             "w":  47,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  47,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  47,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "drone_chun_shoot_02":  {
+                                               "frame":  {
+                                                             "x":  449,
+                                                             "y":  0,
+                                                             "w":  56,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  56,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  56,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "drone_chun_shoot_03":  {
+                                               "frame":  {
+                                                             "x":  368,
+                                                             "y":  371,
+                                                             "w":  57,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  57,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  57,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "drone_chun_shoot_04":  {
+                                               "frame":  {
+                                                             "x":  309,
+                                                             "y":  371,
+                                                             "w":  58,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  58,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  58,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "umbrella_thug_idle_01":  {
+                                                 "frame":  {
+                                                               "x":  202,
+                                                               "y":  681,
+                                                               "w":  86,
+                                                               "h":  65
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  86,
+                                                                          "h":  65
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  86,
+                                                                    "h":  65
+                                                                }
+                                             },
+                   "umbrella_thug_idle_02":  {
+                                                 "frame":  {
+                                                               "x":  289,
+                                                               "y":  681,
+                                                               "w":  86,
+                                                               "h":  65
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  86,
+                                                                          "h":  65
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  86,
+                                                                    "h":  65
+                                                                }
+                                             },
+                   "umbrella_thug_walk_01":  {
+                                                 "frame":  {
+                                                               "x":  69,
+                                                               "y":  681,
+                                                               "w":  89,
+                                                               "h":  67
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  89,
+                                                                          "h":  67
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  89,
+                                                                    "h":  67
+                                                                }
+                                             },
+                   "umbrella_thug_walk_02":  {
+                                                 "frame":  {
+                                                               "x":  105,
+                                                               "y":  287,
+                                                               "w":  76,
+                                                               "h":  82
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  76,
+                                                                          "h":  82
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  76,
+                                                                    "h":  82
+                                                                }
+                                             },
+                   "umbrella_thug_walk_03":  {
+                                                 "frame":  {
+                                                               "x":  274,
+                                                               "y":  451,
+                                                               "w":  87,
+                                                               "h":  77
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  87,
+                                                                          "h":  77
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  87,
+                                                                    "h":  77
+                                                                }
+                                             },
+                   "umbrella_thug_walk_04":  {
+                                                 "frame":  {
+                                                               "x":  433,
+                                                               "y":  530,
+                                                               "w":  88,
+                                                               "h":  75
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  88,
+                                                                          "h":  75
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  88,
+                                                                    "h":  75
+                                                                }
+                                             },
+                   "umbrella_thug_attack_01":  {
+                                                   "frame":  {
+                                                                 "x":  0,
+                                                                 "y":  750,
+                                                                 "w":  106,
+                                                                 "h":  59
+                                                             },
+                                                   "rotated":  false,
+                                                   "trimmed":  false,
+                                                   "spriteSourceSize":  {
+                                                                            "x":  0,
+                                                                            "y":  0,
+                                                                            "w":  106,
+                                                                            "h":  59
+                                                                        },
+                                                   "sourceSize":  {
+                                                                      "w":  106,
+                                                                      "h":  59
+                                                                  }
+                                               },
+                   "umbrella_thug_shield_01":  {
+                                                   "frame":  {
+                                                                 "x":  515,
+                                                                 "y":  608,
+                                                                 "w":  58,
+                                                                 "h":  70
+                                                             },
+                                                   "rotated":  false,
+                                                   "trimmed":  false,
+                                                   "spriteSourceSize":  {
+                                                                            "x":  0,
+                                                                            "y":  0,
+                                                                            "w":  58,
+                                                                            "h":  70
+                                                                        },
+                                                   "sourceSize":  {
+                                                                      "w":  58,
+                                                                      "h":  70
+                                                                  }
+                                               },
+                   "umbrella_thug_jump_01":  {
+                                                 "frame":  {
+                                                               "x":  95,
+                                                               "y":  102,
+                                                               "w":  44,
+                                                               "h":  92
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  44,
+                                                                          "h":  92
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  44,
+                                                                    "h":  92
+                                                                }
+                                             },
+                   "umbrella_thug_float_01":  {
+                                                  "frame":  {
+                                                                "x":  0,
+                                                                "y":  102,
+                                                                "w":  45,
+                                                                "h":  95
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  45,
+                                                                           "h":  95
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  45,
+                                                                     "h":  95
+                                                                 }
+                                              },
+                   "umbrella_thug_hurt_01":  {
+                                                 "frame":  {
+                                                               "x":  506,
+                                                               "y":  156,
+                                                               "w":  58,
+                                                               "h":  77
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  58,
+                                                                          "h":  77
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  58,
+                                                                    "h":  77
+                                                                }
+                                             },
+                   "umbrella_thug_hurt_02":  {
+                                                 "frame":  {
+                                                               "x":  574,
+                                                               "y":  608,
+                                                               "w":  75,
+                                                               "h":  69
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  75,
+                                                                          "h":  69
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  75,
+                                                                    "h":  69
+                                                                }
+                                             },
+                   "umbrella_thug_knockdown_01":  {
+                                                      "frame":  {
+                                                                    "x":  624,
+                                                                    "y":  750,
+                                                                    "w":  86,
+                                                                    "h":  54
+                                                                },
+                                                      "rotated":  false,
+                                                      "trimmed":  false,
+                                                      "spriteSourceSize":  {
+                                                                               "x":  0,
+                                                                               "y":  0,
+                                                                               "w":  86,
+                                                                               "h":  54
+                                                                           },
+                                                      "sourceSize":  {
+                                                                         "w":  86,
+                                                                         "h":  54
+                                                                     }
+                                                  },
+                   "umbrella_thug_knockdown_02":  {
+                                                      "frame":  {
+                                                                    "x":  107,
+                                                                    "y":  750,
+                                                                    "w":  56,
+                                                                    "h":  59
+                                                                },
+                                                      "rotated":  false,
+                                                      "trimmed":  false,
+                                                      "spriteSourceSize":  {
+                                                                               "x":  0,
+                                                                               "y":  0,
+                                                                               "w":  56,
+                                                                               "h":  59
+                                                                           },
+                                                      "sourceSize":  {
+                                                                         "w":  56,
+                                                                         "h":  59
+                                                                     }
+                                                  },
+                   "umbrella_thug_dead_01":  {
+                                                 "frame":  {
+                                                               "x":  574,
+                                                               "y":  865,
+                                                               "w":  103,
+                                                               "h":  33
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  103,
+                                                                          "h":  33
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  103,
+                                                                    "h":  33
+                                                                }
+                                             },
+                   "umbrella_thug_getup_01":  {
+                                                  "frame":  {
+                                                                "x":  364,
+                                                                "y":  810,
+                                                                "w":  67,
+                                                                "h":  50
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  67,
+                                                                           "h":  50
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  67,
+                                                                     "h":  50
+                                                                 }
+                                              },
+                   "umbrella_thug_getup_02":  {
+                                                  "frame":  {
+                                                                "x":  524,
+                                                                "y":  810,
+                                                                "w":  71,
+                                                                "h":  47
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  71,
+                                                                           "h":  47
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  71,
+                                                                     "h":  47
+                                                                 }
+                                              },
+                   "pistol_thug_idle_01":  {
+                                               "frame":  {
+                                                             "x":  177,
+                                                             "y":  451,
+                                                             "w":  33,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  33,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  33,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "pistol_thug_walk_01":  {
+                                               "frame":  {
+                                                             "x":  211,
+                                                             "y":  451,
+                                                             "w":  33,
+                                                             "h":  78
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  33,
+                                                                        "h":  78
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  33,
+                                                                  "h":  78
+                                                              }
+                                           },
+                   "pistol_thug_walk_02":  {
+                                               "frame":  {
+                                                             "x":  0,
+                                                             "y":  530,
+                                                             "w":  52,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  52,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  52,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "pistol_thug_walk_03":  {
+                                               "frame":  {
+                                                             "x":  139,
+                                                             "y":  371,
+                                                             "w":  41,
+                                                             "h":  79
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  41,
+                                                                        "h":  79
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  41,
+                                                                  "h":  79
+                                                              }
+                                           },
+                   "pistol_thug_walk_04":  {
+                                               "frame":  {
+                                                             "x":  298,
+                                                             "y":  85,
+                                                             "w":  34,
+                                                             "h":  80
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  34,
+                                                                        "h":  80
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  34,
+                                                                  "h":  80
+                                                              }
+                                           },
+                   "pistol_thug_walk_05":  {
+                                               "frame":  {
+                                                             "x":  506,
+                                                             "y":  234,
+                                                             "w":  55,
+                                                             "h":  77
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  55,
+                                                                        "h":  77
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  55,
+                                                                  "h":  77
+                                                              }
+                                           },
+                   "pistol_thug_melee_01":  {
+                                                "frame":  {
+                                                              "x":  230,
+                                                              "y":  88,
+                                                              "w":  42,
+                                                              "h":  84
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  42,
+                                                                         "h":  84
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  42,
+                                                                   "h":  84
+                                                               }
+                                            },
+                   "pistol_thug_melee_02":  {
+                                                "frame":  {
+                                                              "x":  573,
+                                                              "y":  375,
+                                                              "w":  57,
+                                                              "h":  73
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  57,
+                                                                         "h":  73
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  57,
+                                                                   "h":  73
+                                                               }
+                                            },
+                   "pistol_thug_shoot_01":  {
+                                                "frame":  {
+                                                              "x":  321,
+                                                              "y":  530,
+                                                              "w":  60,
+                                                              "h":  76
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  60,
+                                                                         "h":  76
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  60,
+                                                                   "h":  76
+                                                               }
+                                            },
+                   "pistol_thug_shoot_02":  {
+                                                "frame":  {
+                                                              "x":  249,
+                                                              "y":  371,
+                                                              "w":  59,
+                                                              "h":  78
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  59,
+                                                                         "h":  78
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  59,
+                                                                   "h":  78
+                                                               }
+                                            },
+                   "pistol_thug_hurt_01":  {
+                                               "frame":  {
+                                                             "x":  193,
+                                                             "y":  198,
+                                                             "w":  36,
+                                                             "h":  86
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  36,
+                                                                        "h":  86
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  36,
+                                                                  "h":  86
+                                                              }
+                                           },
+                   "pistol_thug_knockdown_01":  {
+                                                    "frame":  {
+                                                                  "x":  502,
+                                                                  "y":  865,
+                                                                  "w":  71,
+                                                                  "h":  34
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  71,
+                                                                             "h":  34
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  71,
+                                                                       "h":  34
+                                                                   }
+                                                },
+                   "pistol_thug_knockdown_02":  {
+                                                    "frame":  {
+                                                                  "x":  0,
+                                                                  "y":  681,
+                                                                  "w":  68,
+                                                                  "h":  68
+                                                              },
+                                                    "rotated":  false,
+                                                    "trimmed":  false,
+                                                    "spriteSourceSize":  {
+                                                                             "x":  0,
+                                                                             "y":  0,
+                                                                             "w":  68,
+                                                                             "h":  68
+                                                                         },
+                                                    "sourceSize":  {
+                                                                       "w":  68,
+                                                                       "h":  68
+                                                                   }
+                                                },
+                   "pistol_thug_dead_01":  {
+                                               "frame":  {
+                                                             "x":  256,
+                                                             "y":  865,
+                                                             "w":  80,
+                                                             "h":  36
+                                                         },
+                                               "rotated":  false,
+                                               "trimmed":  false,
+                                               "spriteSourceSize":  {
+                                                                        "x":  0,
+                                                                        "y":  0,
+                                                                        "w":  80,
+                                                                        "h":  36
+                                                                    },
+                                               "sourceSize":  {
+                                                                  "w":  80,
+                                                                  "h":  36
+                                                              }
+                                           },
+                   "pistol_thug_getup_01":  {
+                                                "frame":  {
+                                                              "x":  596,
+                                                              "y":  810,
+                                                              "w":  79,
+                                                              "h":  45
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  79,
+                                                                         "h":  45
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  79,
+                                                                   "h":  45
+                                                               }
+                                            },
+                   "pistol_thug_getup_02":  {
+                                                "frame":  {
+                                                              "x":  530,
+                                                              "y":  750,
+                                                              "w":  46,
+                                                              "h":  55
+                                                          },
+                                                "rotated":  false,
+                                                "trimmed":  false,
+                                                "spriteSourceSize":  {
+                                                                         "x":  0,
+                                                                         "y":  0,
+                                                                         "w":  46,
+                                                                         "h":  55
+                                                                     },
+                                                "sourceSize":  {
+                                                                   "w":  46,
+                                                                   "h":  55
+                                                               }
+                                            },
+                   "pistol_thug_b_idle_01":  {
+                                                 "frame":  {
+                                                               "x":  181,
+                                                               "y":  371,
+                                                               "w":  33,
+                                                               "h":  79
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  33,
+                                                                          "h":  79
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  33,
+                                                                    "h":  79
+                                                                }
+                                             },
+                   "pistol_thug_b_walk_01":  {
+                                                 "frame":  {
+                                                               "x":  215,
+                                                               "y":  371,
+                                                               "w":  33,
+                                                               "h":  79
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  33,
+                                                                          "h":  79
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  33,
+                                                                    "h":  79
+                                                                }
+                                             },
+                   "pistol_thug_b_walk_02":  {
+                                                 "frame":  {
+                                                               "x":  449,
+                                                               "y":  158,
+                                                               "w":  52,
+                                                               "h":  78
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  52,
+                                                                          "h":  78
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  52,
+                                                                    "h":  78
+                                                                }
+                                             },
+                   "pistol_thug_b_walk_03":  {
+                                                 "frame":  {
+                                                               "x":  335,
+                                                               "y":  164,
+                                                               "w":  41,
+                                                               "h":  80
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  41,
+                                                                          "h":  80
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  41,
+                                                                    "h":  80
+                                                                }
+                                             },
+                   "pistol_thug_b_walk_04":  {
+                                                 "frame":  {
+                                                               "x":  297,
+                                                               "y":  287,
+                                                               "w":  34,
+                                                               "h":  81
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  34,
+                                                                          "h":  81
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  34,
+                                                                    "h":  81
+                                                                }
+                                             },
+                   "pistol_thug_b_walk_05":  {
+                                                 "frame":  {
+                                                               "x":  506,
+                                                               "y":  312,
+                                                               "w":  55,
+                                                               "h":  77
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  55,
+                                                                          "h":  77
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  55,
+                                                                    "h":  77
+                                                                }
+                                             },
+                   "pistol_thug_b_melee_01":  {
+                                                  "frame":  {
+                                                                "x":  230,
+                                                                "y":  173,
+                                                                "w":  42,
+                                                                "h":  84
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  42,
+                                                                           "h":  84
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  42,
+                                                                     "h":  84
+                                                                 }
+                                              },
+                   "pistol_thug_b_melee_02":  {
+                                                  "frame":  {
+                                                                "x":  573,
+                                                                "y":  449,
+                                                                "w":  55,
+                                                                "h":  73
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  55,
+                                                                           "h":  73
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  55,
+                                                                     "h":  73
+                                                                 }
+                                              },
+                   "pistol_thug_b_shoot_01":  {
+                                                  "frame":  {
+                                                                "x":  66,
+                                                                "y":  608,
+                                                                "w":  60,
+                                                                "h":  72
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  60,
+                                                                           "h":  72
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  60,
+                                                                     "h":  72
+                                                                 }
+                                              },
+                   "pistol_thug_b_shoot_02":  {
+                                                  "frame":  {
+                                                                "x":  573,
+                                                                "y":  225,
+                                                                "w":  59,
+                                                                "h":  74
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  59,
+                                                                           "h":  74
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  59,
+                                                                     "h":  74
+                                                                 }
+                                              },
+                   "pistol_thug_b_hurt_01":  {
+                                                 "frame":  {
+                                                               "x":  298,
+                                                               "y":  0,
+                                                               "w":  36,
+                                                               "h":  84
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  36,
+                                                                          "h":  84
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  36,
+                                                                    "h":  84
+                                                                }
+                                             },
+                   "pistol_thug_b_knockdown_01":  {
+                                                      "frame":  {
+                                                                    "x":  337,
+                                                                    "y":  865,
+                                                                    "w":  74,
+                                                                    "h":  35
+                                                                },
+                                                      "rotated":  false,
+                                                      "trimmed":  false,
+                                                      "spriteSourceSize":  {
+                                                                               "x":  0,
+                                                                               "y":  0,
+                                                                               "w":  74,
+                                                                               "h":  35
+                                                                           },
+                                                      "sourceSize":  {
+                                                                         "w":  74,
+                                                                         "h":  35
+                                                                     }
+                                                  },
+                   "pistol_thug_b_knockdown_02":  {
+                                                      "frame":  {
+                                                                    "x":  434,
+                                                                    "y":  681,
+                                                                    "w":  68,
+                                                                    "h":  64
+                                                                },
+                                                      "rotated":  false,
+                                                      "trimmed":  false,
+                                                      "spriteSourceSize":  {
+                                                                               "x":  0,
+                                                                               "y":  0,
+                                                                               "w":  68,
+                                                                               "h":  64
+                                                                           },
+                                                      "sourceSize":  {
+                                                                         "w":  68,
+                                                                         "h":  64
+                                                                     }
+                                                  },
+                   "pistol_thug_b_dead_01":  {
+                                                 "frame":  {
+                                                               "x":  175,
+                                                               "y":  865,
+                                                               "w":  80,
+                                                               "h":  38
+                                                           },
+                                                 "rotated":  false,
+                                                 "trimmed":  false,
+                                                 "spriteSourceSize":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "w":  80,
+                                                                          "h":  38
+                                                                      },
+                                                 "sourceSize":  {
+                                                                    "w":  80,
+                                                                    "h":  38
+                                                                }
+                                             },
+                   "pistol_thug_b_getup_01":  {
+                                                  "frame":  {
+                                                                "x":  676,
+                                                                "y":  810,
+                                                                "w":  79,
+                                                                "h":  45
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  79,
+                                                                           "h":  45
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  79,
+                                                                     "h":  45
+                                                                 }
+                                              },
+                   "pistol_thug_b_getup_02":  {
+                                                  "frame":  {
+                                                                "x":  577,
+                                                                "y":  750,
+                                                                "w":  46,
+                                                                "h":  55
+                                                            },
+                                                  "rotated":  false,
+                                                  "trimmed":  false,
+                                                  "spriteSourceSize":  {
+                                                                           "x":  0,
+                                                                           "y":  0,
+                                                                           "w":  46,
+                                                                           "h":  55
+                                                                       },
+                                                  "sourceSize":  {
+                                                                     "w":  46,
+                                                                     "h":  55
+                                                                 }
+                                              },
+                   "bullet_01":  {
+                                     "frame":  {
+                                                   "x":  678,
+                                                   "y":  893,
+                                                   "w":  7,
+                                                   "h":  4
+                                               },
+                                     "rotated":  false,
+                                     "trimmed":  false,
+                                     "spriteSourceSize":  {
+                                                              "x":  0,
+                                                              "y":  0,
+                                                              "w":  7,
+                                                              "h":  4
+                                                          },
+                                     "sourceSize":  {
+                                                        "w":  7,
+                                                        "h":  4
+                                                    }
+                                 },
+                   "bullet_impact_01":  {
+                                            "frame":  {
+                                                          "x":  756,
+                                                          "y":  827,
+                                                          "w":  14,
+                                                          "h":  12
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  14,
+                                                                     "h":  12
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  14,
+                                                               "h":  12
+                                                           }
+                                        },
+                   "bullet_impact_02":  {
+                                            "frame":  {
+                                                          "x":  756,
+                                                          "y":  810,
+                                                          "w":  16,
+                                                          "h":  16
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  16,
+                                                                     "h":  16
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  16,
+                                                               "h":  16
+                                                           }
+                                        },
+                   "bullet_impact_03":  {
+                                            "frame":  {
+                                                          "x":  855,
+                                                          "y":  865,
+                                                          "w":  20,
+                                                          "h":  20
+                                                      },
+                                            "rotated":  false,
+                                            "trimmed":  false,
+                                            "spriteSourceSize":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "w":  20,
+                                                                     "h":  20
+                                                                 },
+                                            "sourceSize":  {
+                                                               "w":  20,
+                                                               "h":  20
+                                                           }
+                                        }
+               },
+    "meta":  {
+                 "app":  "https://www.leshylabs.com/apps/sstool/",
+                 "version":  "Leshy SpriteSheet Tool v0.9.1",
+                 "image":  "enemigos_limpios.png",
+                 "size":  {
+                              "w":  888,
+                              "h":  904
+                          },
+                 "scale":  1
+             }
+}

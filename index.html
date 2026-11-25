@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spider-Man &amp; Venom: Maximum Carnage — WebGL</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Arial Narrow", Impact, Haettenschweiler, sans-serif;
+      background: #07080f;
+      color: #f3f1e8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    canvas,
+    #gameCanvas {
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 24px 12px;
+      background-color: #07080f;
+      background-image:
+        radial-gradient(ellipse 54vw 84vh at 0% 48%, rgba(158, 17, 30, 0.72), rgba(92, 12, 25, 0.28) 46%, transparent 76%),
+        radial-gradient(ellipse 54vw 86vh at 100% 52%, rgba(15, 39, 77, 0.82), rgba(7, 13, 28, 0.44) 50%, transparent 78%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.085) 0.75px, transparent 1px);
+      background-size: auto, auto, 7px 7px;
+      background-attachment: fixed;
+    }
+
+    .game-shell {
+      width: min(984px, 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 13px;
+    }
+
+    .masthead {
+      text-align: center;
+      line-height: 1;
+    }
+
+    h1 {
+      margin: 0;
+      color: #b81422;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(2rem, 5.8vw, 3.45rem);
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: 0.075em;
+      -webkit-text-stroke: 1.5px #050508;
+      text-shadow:
+        2px 2px 0 #050508,
+        -2px 2px 0 #050508,
+        2px -2px 0 #050508,
+        -2px -2px 0 #050508,
+        4px 5px 0 #f5d130,
+        0 0 18px rgba(184, 20, 34, 0.5);
+    }
+
+    .edition-tag {
+      display: inline-block;
+      margin-top: 9px;
+      padding: 5px 10px 4px;
+      border: 1px solid rgba(245, 209, 48, 0.72);
+      background: rgba(8, 10, 17, 0.8);
+      color: #f5d130;
+      font-family: "Courier New", monospace;
+      font-size: clamp(0.62rem, 1.6vw, 0.76rem);
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.65);
+    }
+
+    .arcade-bezel {
+      position: relative;
+      isolation: isolate;
+      width: 984px;
+      max-width: 100%;
+      padding: 10px;
+      border: 2px solid #141722;
+      border-radius: 10px;
+      background: linear-gradient(145deg, #d12432 0%, #b81422 38%, #7d101b 100%);
+      box-shadow:
+        0 0 0 2px rgba(184, 20, 34, 0.9),
+        0 0 0 7px #141722,
+        0 0 25px rgba(184, 20, 34, 0.28),
+        0 0 42px rgba(15, 39, 77, 0.38),
+        inset 0 1px 0 rgba(255, 255, 255, 0.24),
+        inset 0 -3px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    .screw {
+      position: absolute;
+      z-index: 4;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #20232d;
+      border-radius: 50%;
+      background: radial-gradient(circle at 34% 30%, #c1c6ce 0 1px, #747b89 1.7px, #303440 3.2px, #11131a 5.5px);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
+      pointer-events: none;
+    }
+
+    .screw--tl { top: 4px; left: 4px; }
+    .screw--tr { top: 4px; right: 4px; }
+    .screw--bl { bottom: 4px; left: 4px; }
+    .screw--br { bottom: 4px; right: 4px; }
+
+    .crt-screen {
+      position: relative;
+      z-index: 1;
+      width: 960px;
+      max-width: 100%;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      border-radius: 3px;
+      background: #050508;
+      box-shadow: inset 0 0 0 2px #080a0f, inset 0 0 0 3px rgba(255, 255, 255, 0.06), 0 0 0 1px rgba(245, 209, 48, 0.22);
+    }
+
+    #gameCanvas {
+      display: block;
+      width: 960px;
+      height: 720px;
+      max-width: min(95vw, 100%);
+      height: auto;
+      aspect-ratio: 4 / 3;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+
+    .crt-screen::after {
+      position: absolute;
+      z-index: 2;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0 2px,
+        rgba(0, 0, 0, 0.06) 2px 4px
+      );
+      content: "";
+      pointer-events: none;
+    }
+
+    .bezel-mark {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 16px 1px;
+      color: rgba(255, 235, 197, 0.92);
+      font-family: "Courier New", monospace;
+      font-size: 0.64rem;
+      font-weight: 700;
+      letter-spacing: 0.19em;
+      text-shadow: 0 1px 1px #450810;
+    }
+
+    .quick-controls {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      padding: 11px;
+      border: 1px solid #f5d130;
+      border-radius: 7px;
+      background: rgba(7, 9, 15, 0.82);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.36), inset 0 0 16px rgba(245, 209, 48, 0.045);
+    }
+
+    .control-item {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 5px 7px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.035);
+      color: #e9e7df;
+      font-size: 0.77rem;
+      line-height: 1.2;
+    }
+
+    kbd {
+      flex: 0 0 auto;
+      padding: 3px 5px;
+      border: 1px solid #686b74;
+      border-bottom-width: 2px;
+      border-radius: 4px;
+      background: linear-gradient(#383b45, #1c1e26);
+      color: #f5d130;
+      font-family: "Courier New", monospace;
+      font-size: 0.68rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .control-item span {
+      min-width: 0;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        gap: 13px;
+        padding: 20px 12px;
+      }
+
+      .arcade-bezel {
+        padding: 8px;
+      }
+
+      .quick-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 420px) {
+      .game-shell {
+        gap: 11px;
+      }
+
+      .quick-controls {
+        grid-template-columns: 1fr;
+      }
+
+      .control-item {
+        font-size: 0.82rem;
+      }
+
+      .bezel-mark {
+        padding-inline: 7px;
+        font-size: 0.53rem;
+      }
+    }
+
+    #mobileControls {
+      position: fixed;
+      z-index: 30;
+      inset: 0;
+      display: none;
+      overflow: hidden;
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: none;
+      -webkit-touch-callout: none;
+    }
+
+    #touchJoystick {
+      position: absolute;
+      bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+      left: calc(22px + env(safe-area-inset-left, 0px));
+      width: 112px;
+      height: 112px;
+      border: 1px solid rgba(255, 255, 255, 0.42);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, transparent 0 31px, rgba(255, 255, 255, 0.18) 32px 33px, transparent 34px),
+        radial-gradient(circle, rgba(158, 17, 30, 0.23), rgba(6, 8, 15, 0.56));
+      box-shadow: inset 0 0 0 4px rgba(184, 20, 34, 0.2), 0 4px 18px rgba(0, 0, 0, 0.42);
+      pointer-events: auto;
+      touch-action: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #touchJoystick::before,
+    #touchJoystick::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: rgba(255, 255, 255, 0.15);
+      content: "";
+      pointer-events: none;
+    }
+
+    #touchJoystick::before {
+      width: 70px;
+      height: 1px;
+      transform: translate(-50%, -50%);
+    }
+
+    #touchJoystick::after {
+      width: 1px;
+      height: 70px;
+      transform: translate(-50%, -50%);
+    }
+
+    #touchJoystickKnob {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: 46px;
+      height: 46px;
+      transform: translate(-50%, -50%);
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.88), rgba(222, 225, 232, 0.62) 23%, rgba(53, 58, 71, 0.88) 72%);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.55), inset 0 1px 2px rgba(255, 255, 255, 0.62);
+      pointer-events: none;
+    }
+
+    #touchActionPad {
+      position: absolute;
+      right: calc(18px + env(safe-area-inset-right, 0px));
+      bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+      width: 228px;
+      height: 226px;
+      pointer-events: none;
+    }
+
+    .mobile-action,
+    .mobile-top-button {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      border-radius: 50%;
+      background: radial-gradient(circle at 34% 28%, rgba(255, 255, 255, 0.32), rgba(30, 35, 48, 0.82) 55%, rgba(5, 7, 13, 0.9));
+      color: #fff;
+      font-family: "Arial Narrow", Impact, sans-serif;
+      font-size: 8px;
+      font-weight: 900;
+      line-height: 1.05;
+      text-align: center;
+      text-shadow: 0 1px 2px #000;
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.46), inset 0 1px 1px rgba(255, 255, 255, 0.22);
+      pointer-events: auto;
+      touch-action: none;
+      -webkit-tap-highlight-color: transparent;
+      cursor: pointer;
+    }
+
+    .mobile-action {
+      width: 46px;
+      height: 46px;
+    }
+
+    .mobile-action.is-pressed,
+    .mobile-top-button.is-pressed {
+      transform: scale(0.92);
+      filter: brightness(1.42);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.55), inset 0 0 10px rgba(255, 255, 255, 0.22);
+    }
+
+    .action-hit {
+      right: 0;
+      bottom: 0;
+      width: 66px;
+      height: 66px;
+      border: 2px solid #ffe178;
+      background: radial-gradient(circle at 35% 25%, #ff6870, #b81422 58%, #5a0c16);
+      color: #fff6d4;
+      font-size: 10px;
+      box-shadow: 0 0 16px rgba(184, 20, 34, 0.55), 0 3px 10px rgba(0, 0, 0, 0.58), inset 0 1px 3px rgba(255, 255, 255, 0.42);
+    }
+
+    .action-jump { right: 12px; bottom: 103px; }
+    .action-web { left: 88px; bottom: 37px; border-color: rgba(189, 224, 255, 0.86); background: radial-gradient(circle at 34% 28%, rgba(119, 197, 255, 0.5), rgba(20, 73, 124, 0.9) 58%, rgba(5, 19, 39, 0.94)); }
+    .action-shield { left: 118px; bottom: 0; width: 44px; height: 44px; border-color: #e4efff; background: radial-gradient(circle at 34% 28%, rgba(207, 229, 255, 0.5), rgba(34, 59, 102, 0.9) 58%, rgba(8, 16, 34, 0.94)); }
+    .action-special { left: 90px; bottom: 88px; width: 44px; height: 44px; border-color: #8edaff; background: radial-gradient(circle at 34% 28%, rgba(123, 225, 255, 0.5), rgba(12, 80, 125, 0.9) 58%, rgba(3, 23, 39, 0.94)); }
+    .action-strong { left: 32px; bottom: 137px; width: 40px; height: 40px; border-color: #ffe178; background: radial-gradient(circle at 35% 25%, #fff0a0, #b66b12 62%, #58320b); color: #201306; text-shadow: none; font-size: 7px; }
+
+    .mobile-top-button {
+      top: calc(12px + env(safe-area-inset-top, 0px));
+      min-height: 34px;
+      padding: 0 12px;
+      border-radius: 18px;
+      background: rgba(8, 10, 18, 0.82);
+      color: #f5d130;
+      font-family: "Courier New", monospace;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      backdrop-filter: blur(5px);
+    }
+
+    #mobileRestart {
+      left: 50%;
+      transform: translateX(-50%);
+      border-color: #f5d130;
+    }
+
+    #mobileRestart.is-pressed {
+      transform: translateX(-50%) scale(0.94);
+    }
+
+    #mobileTransform {
+      right: calc(18px + env(safe-area-inset-right, 0px));
+      border-color: #e34b59;
+      color: #ffb6bd;
+    }
+
+    @media (pointer: coarse), (max-width: 900px) {
+      #mobileControls {
+        display: block;
+      }
+
+      .quick-controls {
+        display: none;
+      }
+
+      .game-shell {
+        gap: 8px;
+      }
+
+      .bezel-mark {
+        display: none;
+      }
+    }
+
+    @media (max-width: 420px) {
+      #touchJoystick {
+        bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+        left: calc(14px + env(safe-area-inset-left, 0px));
+      }
+
+      #touchActionPad {
+        right: calc(12px + env(safe-area-inset-right, 0px));
+        bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+        transform: scale(0.88);
+        transform-origin: right bottom;
+      }
+
+      #mobileTransform {
+        top: calc(54px + env(safe-area-inset-top, 0px));
+        right: 12px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      #touchJoystick {
+        left: calc(10px + env(safe-area-inset-left, 0px));
+      }
+
+      #touchActionPad {
+        right: calc(10px + env(safe-area-inset-right, 0px));
+        transform: scale(0.78);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="game-shell">
+    <header class="masthead">
+      <h1>MAXIMUM CARNAGE</h1>
+      <div class="edition-tag">SNES 1994 &bull; NATIVE WEBGL 1 ENGINE</div>
+    </header>
+
+    <section class="arcade-bezel" aria-label="Pantalla del juego">
+      <span class="screw screw--tl" aria-hidden="true"></span>
+      <span class="screw screw--tr" aria-hidden="true"></span>
+      <span class="screw screw--bl" aria-hidden="true"></span>
+      <span class="screw screw--br" aria-hidden="true"></span>
+      <div class="crt-screen">
+        <canvas id="gameCanvas" width="320" height="240" aria-label="Spider-Man y Venom: Maximum Carnage"></canvas>
+      </div>
+      <div class="bezel-mark" aria-hidden="true">
+        <span>RED CARTRIDGE EDITION</span>
+        <span>16-BIT • 1994</span>
+      </div>
+    </section>
+
+    <section class="quick-controls" aria-label="Controles rápidos">
+      <div class="control-item"><kbd>WASD / Flechas</kbd><span>Moverse (x2 Correr)</span></div>
+      <div class="control-item"><kbd>Espacio</kbd><span>Saltar / Trepar muro</span></div>
+      <div class="control-item"><kbd>J / Z</kbd><span>Combo / Patada aérea</span></div>
+      <div class="control-item"><kbd>L / X</kbd><span>Telaraña (Spider-Man)</span></div>
+      <div class="control-item"><kbd>I / C</kbd><span>Escudo 50/50</span></div>
+      <div class="control-item"><kbd>U / Q</kbd><span>Balanceo / Salto Venom</span></div>
+      <div class="control-item"><kbd>Tab / T</kbd><span>Transformación Simbionte</span></div>
+      <div class="control-item"><kbd>F1</kbd><span>Ayuda en pantalla</span></div>
+    </section>
+  </main>
+
+  <div id="mobileControls" aria-label="Controles táctiles">
+    <div id="touchJoystick" aria-label="Joystick de movimiento">
+      <div id="touchJoystickKnob"></div>
+    </div>
+
+    <div id="touchActionPad" aria-label="Acciones">
+      <button class="mobile-action action-hit" type="button" data-key="KeyJ" aria-label="Golpe">GOLPE</button>
+      <button class="mobile-action action-jump" type="button" data-key="Space" aria-label="Saltar">SALTO</button>
+      <button class="mobile-action action-web" type="button" data-key="KeyL" aria-label="Telaraña">RED</button>
+      <button class="mobile-action action-shield" type="button" data-key="KeyI" aria-label="Escudo">ESCUDO</button>
+      <button class="mobile-action action-special" type="button" data-key="KeyU" aria-label="Especial">ESPECIAL</button>
+      <button class="mobile-action action-strong" type="button" data-key="KeyN" aria-label="Fuerte">FUERTE</button>
+    </div>
+
+    <button id="mobileRestart" class="mobile-top-button" type="button" data-key="Enter" aria-label="Reiniciar">REINICIAR</button>
+    <button id="mobileTransform" class="mobile-top-button" type="button" data-key="Tab" aria-label="Cambiar a Venom o Spider-Man">VENOM / SPIDEY</button>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
